@@ -1,10 +1,10 @@
 <?php
 
 class Database {
-    private $host = "127.0.0.1"; // Add port if needed, e.g., "104.236.9.250:3306"
-    private $user = "root";
-    private $db = "waapi";
-    private $pwd = "Hamza786";
+    private $host = "104.236.9.250"; // Add port if needed, e.g., "104.236.9.250:3306"
+    private $user = "xtazamxamd";
+    private $db = "xtazamxamd";
+    private $pwd = "5sGN8J3TqY";
     private $conn = NULL;
 
     public function connect() {
