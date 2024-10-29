@@ -18,12 +18,7 @@ if ($db === null) {
 $whatsappInfo = new WhatsappInfo($db);
 
 // Set properties for posting data
-if (isset($_GET['security_token'])) {
-    $securityToken = $_GET['security_token'];
-} else {
-    echo "Security token is missing.";
-    exit;
-}
+
 
 // Retrieve JSON data from the incoming webhook
 $inputData = file_get_contents('php://input');
